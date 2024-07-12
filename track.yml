@@ -1,0 +1,17 @@
+slug: persistent-terminal
+title: Persistent terminal session
+description: |
+  Example track showing a persistent terminal session using [GNU screen](https://www.gnu.org/software/screen/). `screen` allows you to keep a terminal session running, and reuse the same session in subsequent challenges.
+icon: ""
+tags: []
+owner: ade
+idle_timeout: 300
+timelimit: 1200
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+  feedback_recap_enabled: true
+  loadingMessages: true
+  lab_v2: false
+  hideStopButton: false

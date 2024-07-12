@@ -1,0 +1,5 @@
+version: "3"
+containers:
+- name: ubuntu
+  image: ubuntu:20.04
+  memory: 256
